@@ -1,17 +1,5 @@
 ---
 apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: my-team
-  description: My awesome team!
-spec:
-  type: team
-  profile:
-    displayName: My Team
-    email: baby.arthy@lexisnexisrisk.com
-  children: []
----
-apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: service-a
@@ -22,3 +10,15 @@ spec:
   type: service
   lifecycle: production
   owner: my-team
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: my-team
+  description: My awesome team!
+spec:
+  type: team
+  profile:
+    displayName: My Team
+    email: baby.arthy@lexisnexisrisk.com
+  children: []
