@@ -1,3 +1,4 @@
+---
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
@@ -21,4 +22,3 @@ spec:
   type: service
   lifecycle: production
   owner: my-team
----
