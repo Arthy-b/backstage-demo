@@ -5,7 +5,7 @@ metadata:
   name: my-team
   description: My awesome team!
 spec:
-  type: sre-op-team
+  type: team
   profile:
     displayName: My Team
     email: baby.arthy@lexisnexisrisk.com
