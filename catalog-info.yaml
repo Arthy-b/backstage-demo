@@ -10,18 +10,6 @@ spec:
   type: service
   lifecycle: production
   owner: guest
-# ---
-# apiVersion: backstage.io/v1alpha1
-# kind: Group
-# metadata:
-#   name: my-team
-#   description: My awesome team!
-# spec:
-#   type: team
-#   profile:
-#     displayName: My Team
-#     email: baby.arthy@lexisnexisrisk.com
-#   children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
