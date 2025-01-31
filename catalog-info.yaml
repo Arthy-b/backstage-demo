@@ -1,15 +1,15 @@
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: service-a
-  description: Service A in Backstage
-  annotations:
-    github.com/project-slug: arthyb/backstage-demo/service-a
-spec:
-  type: service
-  lifecycle: production
-  owner: my-team
+# ---
+# apiVersion: backstage.io/v1alpha1
+# kind: Component
+# metadata:
+#   name: service-a
+#   description: Service A in Backstage
+#   annotations:
+#     github.com/project-slug: arthyb/backstage-demo/service-a
+# spec:
+#   type: service
+#   lifecycle: production
+#   owner: my-team
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
