@@ -1,24 +1,24 @@
-# ---
-# apiVersion: backstage.io/v1alpha1
-# kind: Component
-# metadata:
-#   name: service-a
-#   description: Service A in Backstage
-#   annotations:
-#     github.com/project-slug: arthyb/backstage-demo/service-a
-# spec:
-#   type: service
-#   lifecycle: production
-#   owner: my-team
 ---
 apiVersion: backstage.io/v1alpha1
-kind: Group
+kind: Component
 metadata:
-  name: my-team
-  description: My awesome team!
+  name: service-a
+  description: Service A in Backstage
+  annotations:
+    github.com/project-slug: arthyb/backstage-demo/service-a
 spec:
-  type: team
-  profile:
-    displayName: My Team
-    email: baby.arthy@lexisnexisrisk.com
-  children: []
+  type: service
+  lifecycle: production
+  owner: guest
+# ---
+# apiVersion: backstage.io/v1alpha1
+# kind: Group
+# metadata:
+#   name: my-team
+#   description: My awesome team!
+# spec:
+#   type: team
+#   profile:
+#     displayName: My Team
+#     email: baby.arthy@lexisnexisrisk.com
+#   children: []
